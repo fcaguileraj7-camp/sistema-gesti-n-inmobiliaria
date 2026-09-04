@@ -1,3 +1,5 @@
+USE inmobiliaria;
+
 -- FUNCION 1
 -- Calcular comision de un agente en una venta
 
@@ -188,3 +190,9 @@ SELECT total_propiedades_disponibles('Bodega');
 
 SHOW FUNCTION STATUS
 WHERE Db = 'inmobiliaria';
+
+-- PRUEBAS DE ERROR
+
+SELECT calcular_comision_venta(1);
+SELECT calcular_deuda_arriendo(2);
+SELECT total_propiedades_disponibles('Bodega');

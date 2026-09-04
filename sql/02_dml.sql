@@ -1,3 +1,5 @@
+USE inmobiliaria;
+
 INSERT INTO tipos_propiedad (nombre) VALUES
 ('Casa'),
 ('Apartamento'),

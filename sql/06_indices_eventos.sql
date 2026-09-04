@@ -1,3 +1,5 @@
+USE inmobiliaria;
+
 -- INDICES
 
 CREATE INDEX idx_propiedades_estado
